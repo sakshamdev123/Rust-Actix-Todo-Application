@@ -1,0 +1,50 @@
+# GET http://localhost:8080/home
+
+# GET http://localhost:8080/hello/Elon/Musk
+
+# POST http://localhost:8080/user/create
+# Content-Type: application/json
+
+# {
+#     "first_name": "Elon",
+#     "last_name": "Musk"
+# }
+
+# POST http://localhost:8080/todo/create
+# Content-Type: application/json
+
+# {
+#     "title": "Todo2"
+# }
+
+Get http://localhost:8080/todos/all
+
+# POST http://localhost:8080/todo/title/update
+# Content-Type: application/json
+
+# {
+#     "id": 5,
+#     "title": "Todo5"
+# }
+
+# POST http://localhost:8080/todo/description/update
+# Content-Type: application/json
+
+# {
+#     "id": 1,
+#     "description": "Todo1 description"
+# }
+
+# POST http://localhost:8080/todo/mark/completed
+# Content-Type: application/json
+
+# {
+#     "id": 1
+# }
+
+# DELETE http://localhost:8080/todo/delete
+# Content-Type: application/json
+
+# {
+#     "id": 2
+# }

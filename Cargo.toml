@@ -1,0 +1,11 @@
+[package]
+name = "Rust-Web-Server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.9.0"
+actix-files = "0.6.6"
+serde = {version = "1.0.210", features = ["derive"]}
+tokio = {version = "1.40.0", features = ["macros", "rt-multi-thread"]}
+sqlx = {version = "0.8.2", features = ["mysql", "runtime-tokio-native-tls"]}

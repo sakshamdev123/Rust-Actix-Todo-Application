@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust Todo Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="todo">
+        <h1>TODO LIST</h1>
+        <div class="todo-list">
+            <ul id="todo-list"></ul>
+        </div>
+        <h2>ADD NEW TODO</h2>
+        <div class="new-todo">
+            <form id="new-todo">
+                <label for="title">Title</label>
+                <input type="text" name="title" required>
+                <label for="description">Description</label>
+                <input type="text" name="description">
+                <input type="submit">
+            </form>
+        </div>
+        <h2>UPDATE TODO TITLE</h2>
+        <div class="update-title">
+            <form id="update-title">
+                <label for="id">Id</label>
+                <input type="text" name="id" required>
+                <label for="title">New Title</label>
+                <input type="text" name="title">
+                <input type="submit">
+            </form>
+        </div>
+        <h2>UPDATE TODO DESCRIPTION</h2>
+        <div class="update-description">
+            <form id="update-description">
+                <label for="id">Id</label>
+                <input type="text" name="id" required>
+                <label for="description">New Description</label>
+                <input type="text" name="description">
+                <input type="submit">
+            </form>
+        </div>
+        <h2>MARK TODO COMPLETED</h2>
+        <div class="update-status">
+            <form id="update-status">
+                <label for="id">Id</label>
+                <input type="text" name="id" required>
+                <input type="submit">
+            </form>
+        </div>
+        <h2>DELETE TODO</h2>
+        <div class="delete-todo">
+            <form id="delete-todo">
+                <label for="id">Id</label>
+                <input type="text" name="id" required>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
